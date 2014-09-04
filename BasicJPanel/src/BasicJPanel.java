@@ -28,8 +28,9 @@ public class BasicJPanel extends JPanel{
       made visible or moved or whatever.
     */
     public void paintComponent(Graphics g){
-        g.drawOval(175, 150, 150, 150);
-        g.drawOval(215, 70, 70, 84);
+        g.drawOval(175, 100, 150, 150); // Body
+        g.drawOval(215, 20, 70, 84); // Head
+        g.drawOval(160, 250, 200, 200);
     }
 
     public static void main(String arg[]){
